@@ -1,0 +1,16 @@
+{
+  "name": "crashcourse/crashcourse",
+  "authors": [{
+    "name": "Eduard"
+  }],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CrashCourse\\": "src/"
+    }
+  }
+
+}
+
