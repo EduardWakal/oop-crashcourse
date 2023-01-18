@@ -24,7 +24,7 @@ class ComposerStaticInitca3990c5e145639f3c279c46e858a668
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CrashCourse\\Abstract\\CharacterCounter' => __DIR__ . '/../..' . '/src/Abstract/CharacterCounter.php',
         'CrashCourse\\Classes\\CharacterCreator' => __DIR__ . '/../..' . '/src/Classes/CharacterCreator.php',
-        'CrashCourse\\Classes\\CharacterDisplayer' => __DIR__ . '/../..' . '/src/Classes/CharacterDisplayer.php',
+        'CrashCourse\\Classes\\CharacterModel' => __DIR__ . '/../..' . '/src/Classes/CharacterModel.php',
         'CrashCourse\\Classes\\Database' => __DIR__ . '/../..' . '/src/Classes/Database.php',
         'CrashCourse\\Classes\\Login' => __DIR__ . '/../..' . '/src/Classes/Login.php',
         'CrashCourse\\Classes\\MySqlCharacterCounter' => __DIR__ . '/../..' . '/src/Classes/MySqlCharacterCounter.php',
@@ -35,6 +35,7 @@ class ComposerStaticInitca3990c5e145639f3c279c46e858a668
         'CrashCourse\\Controller\\ProfileInfoController' => __DIR__ . '/../..' . '/src/Controller/ProfileInfoController.php',
         'CrashCourse\\Controller\\SignupController' => __DIR__ . '/../..' . '/src/Controller/SignupController.php',
         'CrashCourse\\Interfaces\\CharacterCreatorInterface' => __DIR__ . '/../..' . '/src/Interfaces/CharacterCreatorInterface.php',
+        'CrashCourse\\View\\CharacterView' => __DIR__ . '/../..' . '/src/View/CharacterView.php',
         'CrashCourse\\View\\ProfileInfoView' => __DIR__ . '/../..' . '/src/View/ProfileInfoView.php',
     );
 

@@ -9,7 +9,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CrashCourse\\Abstract\\CharacterCounter' => $baseDir . '/src/Abstract/CharacterCounter.php',
     'CrashCourse\\Classes\\CharacterCreator' => $baseDir . '/src/Classes/CharacterCreator.php',
-    'CrashCourse\\Classes\\CharacterDisplayer' => $baseDir . '/src/Classes/CharacterDisplayer.php',
+    'CrashCourse\\Classes\\CharacterModel' => $baseDir . '/src/Classes/CharacterModel.php',
     'CrashCourse\\Classes\\Database' => $baseDir . '/src/Classes/Database.php',
     'CrashCourse\\Classes\\Login' => $baseDir . '/src/Classes/Login.php',
     'CrashCourse\\Classes\\MySqlCharacterCounter' => $baseDir . '/src/Classes/MySqlCharacterCounter.php',
@@ -20,5 +20,6 @@ return array(
     'CrashCourse\\Controller\\ProfileInfoController' => $baseDir . '/src/Controller/ProfileInfoController.php',
     'CrashCourse\\Controller\\SignupController' => $baseDir . '/src/Controller/SignupController.php',
     'CrashCourse\\Interfaces\\CharacterCreatorInterface' => $baseDir . '/src/Interfaces/CharacterCreatorInterface.php',
+    'CrashCourse\\View\\CharacterView' => $baseDir . '/src/View/CharacterView.php',
     'CrashCourse\\View\\ProfileInfoView' => $baseDir . '/src/View/ProfileInfoView.php',
 );
