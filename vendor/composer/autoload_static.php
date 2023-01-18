@@ -28,11 +28,14 @@ class ComposerStaticInitca3990c5e145639f3c279c46e858a668
         'CrashCourse\\Classes\\Database' => __DIR__ . '/../..' . '/src/Classes/Database.php',
         'CrashCourse\\Classes\\Login' => __DIR__ . '/../..' . '/src/Classes/Login.php',
         'CrashCourse\\Classes\\MySqlCharacterCounter' => __DIR__ . '/../..' . '/src/Classes/MySqlCharacterCounter.php',
+        'CrashCourse\\Classes\\ProfileInfo' => __DIR__ . '/../..' . '/src/Classes/ProfileInfo.php',
         'CrashCourse\\Classes\\Signup' => __DIR__ . '/../..' . '/src/Classes/Signup.php',
         'CrashCourse\\Controller\\CharacterController' => __DIR__ . '/../..' . '/src/Controller/CharacterController.php',
         'CrashCourse\\Controller\\LoginController' => __DIR__ . '/../..' . '/src/Controller/LoginController.php',
+        'CrashCourse\\Controller\\ProfileInfoController' => __DIR__ . '/../..' . '/src/Controller/ProfileInfoController.php',
         'CrashCourse\\Controller\\SignupController' => __DIR__ . '/../..' . '/src/Controller/SignupController.php',
         'CrashCourse\\Interfaces\\CharacterCreatorInterface' => __DIR__ . '/../..' . '/src/Interfaces/CharacterCreatorInterface.php',
+        'CrashCourse\\View\\ProfileInfoView' => __DIR__ . '/../..' . '/src/View/ProfileInfoView.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

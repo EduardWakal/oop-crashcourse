@@ -1,6 +1,6 @@
 <?php
 namespace CrashCourse\Classes;
-
+use PDO;
 class Signup extends Database
 {
 
@@ -38,4 +38,26 @@ class Signup extends Database
         return $resultCheck;
     }
 
+    protected function getUserId($uid) {
+        $stmt = $this->connect()->prepare('SELECT user_id FROM users WHERE users_uid = ?;');
+
+        if(!$stmt->execute(array($uid))) {
+            $stmt = null;
+            header("location: profile.php?error=stmtfailed");
+            exit();
+        }
+
+        if($stmt->rowCount() == 0) {
+            $stmt = null;
+            header("location: profile.php?error=profilenotfound");
+            exit();
+        }
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function fetchUserId($uid) {
+        $userId = $this->getUserId($uid);
+        return $userId[0]["user_id"];
+    }
 }

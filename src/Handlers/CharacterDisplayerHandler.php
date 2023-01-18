@@ -1,15 +1,19 @@
 <?php
-use CrashCourse\Classes\CharacterDisplayer;
+use CrashCourse\Classes\CharacterModel;
+use CrashCourse\View\CharacterView;
 use CrashCourse\Classes\MySqlCharacterCounter;
-use CrashCourse\Classes\Database;
 
 ini_set('display_errors', 1);
 require_once dirname(__FILE__) . '/../../vendor/autoload.php';
-$conn = new Database();
-$counter = new MySqlCharacterCounter($conn);
+
+$model = new CharacterModel();
+$characters = $model->getCharacters();
+
+$counter = new MySqlCharacterCounter($model);
 $characterCount = $counter->countCharacters();
-$characterDisplayer = new CharacterDisplayer();
-$characterDisplayer->displayCharacters();
+
+$view = new CharacterView();
+$view->displayCharacters($characters);
 ?>
 
 <div>

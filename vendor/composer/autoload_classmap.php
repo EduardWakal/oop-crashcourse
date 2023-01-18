@@ -13,9 +13,12 @@ return array(
     'CrashCourse\\Classes\\Database' => $baseDir . '/src/Classes/Database.php',
     'CrashCourse\\Classes\\Login' => $baseDir . '/src/Classes/Login.php',
     'CrashCourse\\Classes\\MySqlCharacterCounter' => $baseDir . '/src/Classes/MySqlCharacterCounter.php',
+    'CrashCourse\\Classes\\ProfileInfo' => $baseDir . '/src/Classes/ProfileInfo.php',
     'CrashCourse\\Classes\\Signup' => $baseDir . '/src/Classes/Signup.php',
     'CrashCourse\\Controller\\CharacterController' => $baseDir . '/src/Controller/CharacterController.php',
     'CrashCourse\\Controller\\LoginController' => $baseDir . '/src/Controller/LoginController.php',
+    'CrashCourse\\Controller\\ProfileInfoController' => $baseDir . '/src/Controller/ProfileInfoController.php',
     'CrashCourse\\Controller\\SignupController' => $baseDir . '/src/Controller/SignupController.php',
     'CrashCourse\\Interfaces\\CharacterCreatorInterface' => $baseDir . '/src/Interfaces/CharacterCreatorInterface.php',
+    'CrashCourse\\View\\ProfileInfoView' => $baseDir . '/src/View/ProfileInfoView.php',
 );
