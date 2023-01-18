@@ -3,329 +3,9 @@
     padding: 0;
 }
 
-.wrapper {
-    width: 900px;
-    margin: 0 auto;
-}
-
-body {
-    font-size: 16px;
-    font-family: Roboto, serif;
-    color: #fff;
-    line-height: 24px;
-}
-h2, h3 {
-    color: #2073C7;
-}
-h4 {
-    font-size: 22px;
-    color: #1E1E1E;
-    line-height: 32px;
-}
-
-header {
-    width: 100%;
-    height: 80px;
-    background-color: #161616;
-}
-
-header nav {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-header nav div .menu-main {
-    width: fit-content;
-    height: fit-content;
-    list-style: none;
-    margin-left: 26px;
-}
-
-header nav div .menu-main li {
-    display: inline-block;
-}
-
-header nav div .menu-main li a {
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 16px;
-}
-
-header nav .menu-member {
-    width: fit-content;
-    height: fit-content;
-    list-style: none;
-    margin-right: 40px;
-}
-
-header nav .menu-member li {
-    display: inline-block;
-}
-
-header nav .menu-member li a {
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 16px;
-}
-
-.header-login-a {
-    background-color: #3F97EF;
-    border-radius: 4px;
-}
-
-header a:hover {
-    opacity: 80%;
-}
-
-.header-login-a:hover {
-    background-color: #2073C7;
-    opacity: 100%;
-}
-
-.index-login {
-    width: 100%;
-    padding-bottom: 100px;
-    background-color: #fff;
-}
-
-.index-login .wrapper {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.index-login input {
-    width: 220px;
-    height: 34px;
-    border-radius: 6px;
-    border: 1px solid #CCCCCC;
-    background-color: #EEEEEE;
-    font-size: 16px;
-    padding-left: 12px;
-    margin-bottom: 8px;
-}
-
-.index-login button {
-    width: fit-content;
-    height: 34px;
-    border-radius: 6px;
-    border: none;
-    background-color: #3F97EF;
-    font-size: 16px;
-    color: #fff;
-    line-height: 16px;
-    padding: 10px 16px;
-    cursor: pointer;
-}
-
-.index-login button:hover {
-    background-color: #2073C7;
-}
-
-.index-login-signup {
-    width: 50%;
-    margin-top: 80px;
-    padding-left: 20px;
-    border-left: 4px solid #3F97EF;
-}
-
-.index-login-signup p {
-    color: #1E1E1E;
-    padding: 6px 0 10px;
-}
-
-.index-login-login {
-    width: 50%;
-    margin-top: 80px;
-    background-color: #161616;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.index-login-login h4 {
-    color: #fff;
-}
-
-.index-login-login p {
-    padding: 6px 0 10px;
-}
-
-.index-login-login form {
-    width: 232px;
-}
-
-.index-login-login form button {
-    display: block;
-    margin: 0 auto;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main {
-    width: 100%;
-    min-height: 100vh;
-    padding: 1rem;
-    max-width: 400px;
-}
-
-header,
-form {
-    margin-bottom: 20px;
-}
-
-header {
-    border-bottom: 1px solid #000;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input,
-button {
-    padding: 0.5rem;
-}
-
-input {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-}
-
-button {
-    color: #fff;
-    background: dodgerblue;
-}
-
-.update {
-    margin-bottom: 0.25rem;
-}
-
-body {
-    background-color: #f1f1f1;
-}
-
-.character-creator {
-    display: flex;
-    justify-content: space-evenly;
-    min-width: 100%;
-}
-
-.character-creator label {
-    color: black;
-}
-
-.form-container {
-    max-width: 600px;
-    padding: 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px #ccc;
-}
-
-.form-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.form-control {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 10px #007bff;
-}
-
-label {
-    flex: 0 0 25%;
-    max-width: 25%;
-    font-weight: bold;
-    font-size: 14px;
-    margin-left: 1rem;
-}
-
-.btn {
-    margin: 1.5rem  auto;
-    padding: 15px 30px;
-    border-radius: 5px;
-    background-color: #2073C7;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    display: inline-block;
-}
-
-.btn:hover {
-    background-color: #0069d9;
-    cursor: pointer;
-}
-
-.character-table {
-    min-width: 50%;
-}
-
-.character-table-header {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: left;
-    padding: 8px;
-    background-color: #2073C7;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.character-table-cell {
-    border: 1px solid #ccc;
-    text-align: left;
-    padding: 8px;
-    color: black;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #29323e;
+    font-family: Roboto, serif;
 }
 
 .wrapper {
@@ -335,14 +15,14 @@ body {
 
 p {
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     color: #fff;
     line-height: 24px;
 }
 
 h4 {
     font-size: 22px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     color: #1E1E1E;
     line-height: 32px;
 }
@@ -369,7 +49,7 @@ header nav div {
 
 header nav div h3 {
     font-size: 34px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     color: #fff;
     padding-left: 40px;
 }
@@ -387,7 +67,7 @@ header nav div .menu-main li {
 
 header nav div .menu-main li a {
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     color: #fff;
     text-decoration: none;
     padding: 10px 16px;
@@ -406,7 +86,7 @@ header nav .menu-member li {
 
 header nav .menu-member li a {
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     color: #fff;
     text-decoration: none;
     padding: 10px 16px;
@@ -426,71 +106,6 @@ header a:hover {
     opacity: 100%;
 }
 
-.index-intro {
-    width: 100%;
-    height: 580px;
-    background-image: url("img/bg-img.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.index-intro-bg {
-    width: 100%;
-    height: 100%;
-    background: rgba(38, 48, 62, 0.94);
-}
-
-.index-intro-bg .wrapper {
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.index-intro-c1, .index-intro-c2 {
-    width: 50%;
-    height: fit-content;
-}
-
-.index-intro-c1 .video {
-    width: 454px;
-    height: 255px;
-    background-image: url("img/bg-img.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 20px;
-}
-
-.index-intro-c1 p {
-    padding-left: 20px;
-    border-left: 4px solid #3F97EF;
-}
-
-.index-intro-c2 h2 {
-    font-family: Roboto;
-    color: #fff;
-    font-size: 70px;
-    line-height: 82px;
-    margin-left: 60px;
-    padding-bottom: 34px;
-}
-
-.index-intro-c2 a {
-    font-family: Roboto;
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 16px;
-    background-color: #3F97EF;
-    margin-left: 60px;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-.index-intro-c2 a:hover {
-    background-color: #2073C7;
-}
 
 .index-login {
     width: 100%;
@@ -509,7 +124,7 @@ header a:hover {
     border-radius: 6px;
     border: 1px solid #CCCCCC;
     background-color: #EEEEEE;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 16px;
     padding-left: 12px;
     margin-bottom: 8px;
@@ -521,7 +136,7 @@ header a:hover {
     border-radius: 6px;
     border: none;
     background-color: #3F97EF;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 16px;
     color: #fff;
     line-height: 16px;
@@ -572,6 +187,103 @@ header a:hover {
     margin: 0 auto;
 }
 
+.character-creator {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100%;
+}
+.character-creator h3 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.character-creator label {
+    color: white;
+}
+
+.form-container {
+    max-width: 600px;
+    padding: 40px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #222222;
+    box-shadow: 0 0 10px #333333;
+    width: 25%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #444444;
+    padding: 5px;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #2073C7;
+    box-shadow: 0 0 10px #2073C7;
+}
+
+label {
+    flex: 0 0 25%;
+    max-width: 25%;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 1rem;
+    color: white;
+}
+
+.btn {
+    margin: 1.5rem  auto;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #2073C7;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    font-family: Roboto, serif;
+    font-weight: 300;
+}
+
+.character-table-header {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    padding: 8px;
+    background-color: #2073C7;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.character-table-cell {
+    border: 1px solid #333333;
+    text-align: left;
+    padding: 1rem;
+    background-color: #161616;
+    border-radius: 5px;
+}
+
+
 /*----PROFILE----*/
 
 .profile {
@@ -585,7 +297,7 @@ header a:hover {
 .profile-bg {
     width: 100%;
     height: calc(100% - 120px);
-    padding: 60px 0px;
+    padding: 60px 0;
     background: rgba(38, 48, 62, 0.94);
 }
 
@@ -605,7 +317,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
@@ -615,10 +327,10 @@ header a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 700;
     padding: 30px 20px;
-    text-shadow: 0px 3px 2px #111;
+    text-shadow: 0 3px 2px #111;
 }
 
 .break {
@@ -636,7 +348,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
     cursor: pointer;
     margin: 20px 20px;
@@ -652,14 +364,14 @@ header a:hover {
 .profile-info-about {
     background-color: #161616;
     padding: 10px 20px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 .profile-info-about h3 {
     font-size: 12px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 700;
     padding: 10px 0;
 }
@@ -668,7 +380,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 300;
 }
 
@@ -688,7 +400,7 @@ header a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 700;
     padding: 30px 20px 10px;
 }
@@ -697,9 +409,9 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 300;
-    padding: 0px 20px;
+    padding: 0 20px;
 
 }
 
@@ -716,7 +428,7 @@ header a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 900;
     padding: 30px 20px 10px;
 }
@@ -725,7 +437,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
     padding: 10px 20px 0;
 }
@@ -739,7 +451,7 @@ header a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 700;
     padding: 0 20px 0;
 }
@@ -759,7 +471,7 @@ header a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 900;
 }
 
@@ -767,7 +479,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
     padding: 10px 0;
 }
@@ -780,7 +492,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
 }
 
@@ -793,7 +505,7 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
 }
 
@@ -807,10 +519,10 @@ header a:hover {
     font-size: 12px;
     line-height: 20px;
     color: #111;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-weight: 500;
     cursor: pointer;
-    margin: 20px 0px;
+    margin: 20px 0;
     text-decoration: none;
     border: none;
 }

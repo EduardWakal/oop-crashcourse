@@ -1,5 +1,5 @@
 <form action="src/Handlers/SaveCharacter.php" method="post" class="form-container">
-    <h2>Create your character</h2>
+    <h3>Create your character</h3>
     <div class="form-group">
         <label for="name">Character Name:</label>
         <input type="text" id="name" name="name" class="form-control">

@@ -4,11 +4,12 @@ namespace CrashCourse\Classes;
 
 use PDO;
 
-class Login extends Database
+class Login
 {
-
+    use DatabaseTrait;
     protected function getUser($uid, $pwd)
     {
+
         $stmt = $this->connect()->prepare('SELECT users_pwd FROM users WHERE users_uid = ? OR users_email = ?;');
 
         if (!$stmt->execute(array($uid, $pwd))) {

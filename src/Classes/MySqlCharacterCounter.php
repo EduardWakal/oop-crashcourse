@@ -23,5 +23,6 @@ class MySqlCharacterCounter extends CharacterCounter
         $count = $stmt->fetchColumn();
         return (int)$count;
     }
+
 }
 

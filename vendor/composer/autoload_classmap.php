@@ -11,6 +11,7 @@ return array(
     'CrashCourse\\Classes\\CharacterCreator' => $baseDir . '/src/Classes/CharacterCreator.php',
     'CrashCourse\\Classes\\CharacterModel' => $baseDir . '/src/Classes/CharacterModel.php',
     'CrashCourse\\Classes\\Database' => $baseDir . '/src/Classes/Database.php',
+    'CrashCourse\\Classes\\DatabaseTrait' => $baseDir . '/src/Classes/DatabaseTrait.php',
     'CrashCourse\\Classes\\Login' => $baseDir . '/src/Classes/Login.php',
     'CrashCourse\\Classes\\MySqlCharacterCounter' => $baseDir . '/src/Classes/MySqlCharacterCounter.php',
     'CrashCourse\\Classes\\ProfileInfo' => $baseDir . '/src/Classes/ProfileInfo.php',

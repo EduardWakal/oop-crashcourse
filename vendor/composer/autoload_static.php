@@ -26,6 +26,7 @@ class ComposerStaticInitca3990c5e145639f3c279c46e858a668
         'CrashCourse\\Classes\\CharacterCreator' => __DIR__ . '/../..' . '/src/Classes/CharacterCreator.php',
         'CrashCourse\\Classes\\CharacterModel' => __DIR__ . '/../..' . '/src/Classes/CharacterModel.php',
         'CrashCourse\\Classes\\Database' => __DIR__ . '/../..' . '/src/Classes/Database.php',
+        'CrashCourse\\Classes\\DatabaseTrait' => __DIR__ . '/../..' . '/src/Classes/DatabaseTrait.php',
         'CrashCourse\\Classes\\Login' => __DIR__ . '/../..' . '/src/Classes/Login.php',
         'CrashCourse\\Classes\\MySqlCharacterCounter' => __DIR__ . '/../..' . '/src/Classes/MySqlCharacterCounter.php',
         'CrashCourse\\Classes\\ProfileInfo' => __DIR__ . '/../..' . '/src/Classes/ProfileInfo.php',
